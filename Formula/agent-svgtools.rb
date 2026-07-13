@@ -2,8 +2,7 @@
 class AgentSvgtools < Formula
   desc "Machine-first CLI scoring AI-authored SVGs against raster references"
   homepage "https://github.com/wyrd-company/agent-svgtools"
-  version "0.1.0"
-  license "MIT OR Apache-2.0"
+  license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do

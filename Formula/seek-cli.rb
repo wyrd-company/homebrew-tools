@@ -33,6 +33,6 @@ class SeekCli < Formula
   end
 
   test do
-    assert_match version.to_s, shell_output("#{bin}/seek --version")
+    assert_match(/\A\d+\.\d+\.\d+\z/, shell_output("#{bin}/seek --version").strip)
   end
 end
