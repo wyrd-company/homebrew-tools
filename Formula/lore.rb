@@ -2,27 +2,27 @@
 class Lore < Formula
   desc "Project-scoped knowledge portal command-line client"
   homepage "https://github.com/wyrd-company/lore"
-  version "0.1.9"
+  version "0.1.10"
 
   on_macos do
     on_arm do
-      url "https://github.com/wyrd-company/lore/releases/download/0.1.9/lore-0.1.9-darwin-arm64.tar.gz"
-      sha256 "362c861b44702b453f237046af34d4fbab69c87215545db23af1f59756de7a97"
+      url "https://github.com/wyrd-company/lore/releases/download/0.1.10/lore-0.1.10-darwin-arm64.tar.gz"
+      sha256 "d48838d151c8b662cdacc3739985f78d32b05375d7676a53039f9c1f899bec3f"
     end
     on_intel do
-      url "https://github.com/wyrd-company/lore/releases/download/0.1.9/lore-0.1.9-darwin-amd64.tar.gz"
-      sha256 "583ee7ccbbf6523baf76b4739e73b18dce9d2fb459ad07389b8d77e6c072d00c"
+      url "https://github.com/wyrd-company/lore/releases/download/0.1.10/lore-0.1.10-darwin-amd64.tar.gz"
+      sha256 "c3a871eb4a1c6da4d6e39e254bea57f8976fe8ace83e7bdf00d3c32ea8641e22"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/wyrd-company/lore/releases/download/0.1.9/lore-0.1.9-linux-arm64.tar.gz"
-      sha256 "e24f0cf22b01473a54d3d8ae207c302881a0166e8b81428dd186ad07e78e8c39"
+      url "https://github.com/wyrd-company/lore/releases/download/0.1.10/lore-0.1.10-linux-arm64.tar.gz"
+      sha256 "d20ce6e8d64ee25646bb40fe41179c21c41daee7a77a9571943cba59a0e173e2"
     end
     on_intel do
-      url "https://github.com/wyrd-company/lore/releases/download/0.1.9/lore-0.1.9-linux-amd64.tar.gz"
-      sha256 "1402cb78ec3ae2422b960389772fa8d47f82f949eb4a47497f799c510ac40ce7"
+      url "https://github.com/wyrd-company/lore/releases/download/0.1.10/lore-0.1.10-linux-amd64.tar.gz"
+      sha256 "67ef8210be870f23427aaadb1db813104b067b2d926a4d200150b840e80a86c0"
     end
   end
 
