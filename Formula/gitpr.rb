@@ -5,20 +5,20 @@
 class Gitpr < Formula
   desc "Review local git worktree branches as lightweight PRs"
   homepage "https://github.com/wyrd-company/gitpr"
-  version "0.3.1"
+  version "0.3.2"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/wyrd-company/gitpr/releases/download/0.3.1/gitpr_0.3.1_darwin_x86_64.tar.gz"
-      sha256 "abf2881d09765d44662715033d858edd5fed5b60108984a8ed30df7b4fc266cc"
+      url "https://github.com/wyrd-company/gitpr/releases/download/0.3.2/gitpr_0.3.2_darwin_x86_64.tar.gz"
+      sha256 "3e0ac5ffb58cd1c84f9782c70ca5556b252d7f5991e71e34d021c5d3ab3a3862"
 
       define_method(:install) do
         bin.install "gitpr"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/wyrd-company/gitpr/releases/download/0.3.1/gitpr_0.3.1_darwin_arm64.tar.gz"
-      sha256 "351212d63c84593468397861db0b75adec87935cb2544f8ae90845834149a415"
+      url "https://github.com/wyrd-company/gitpr/releases/download/0.3.2/gitpr_0.3.2_darwin_arm64.tar.gz"
+      sha256 "14efa42ed5ff120faef267ae847c655ddae8ab669b744f680a9fe62f0f7d9be5"
 
       define_method(:install) do
         bin.install "gitpr"
@@ -28,15 +28,15 @@ class Gitpr < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/wyrd-company/gitpr/releases/download/0.3.1/gitpr_0.3.1_linux_x86_64.tar.gz"
-      sha256 "802a5c15d4900f4dbb4f5d9dcc7862c71d907e82a8cbda7b6b87409c1d1ea136"
+      url "https://github.com/wyrd-company/gitpr/releases/download/0.3.2/gitpr_0.3.2_linux_x86_64.tar.gz"
+      sha256 "d7547b12db343bb1be9b54f3d0f130ddda96f67d17c88fb096fa6d64cc0fda1d"
       define_method(:install) do
         bin.install "gitpr"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/wyrd-company/gitpr/releases/download/0.3.1/gitpr_0.3.1_linux_arm64.tar.gz"
-      sha256 "19fc3ecf6b83c50c81f2ee9130e6016fc4ca64de9ed9f631a34d0b237eaf869e"
+      url "https://github.com/wyrd-company/gitpr/releases/download/0.3.2/gitpr_0.3.2_linux_arm64.tar.gz"
+      sha256 "e645377b56706cc19061f8e220a9756963812ed7aff45d5f9776c60aac29fa8a"
       define_method(:install) do
         bin.install "gitpr"
       end
