@@ -2,28 +2,28 @@
 class AgentSvgtools < Formula
   desc "Machine-first CLI scoring AI-authored SVGs against raster references"
   homepage "https://github.com/wyrd-company/agent-svgtools"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT OR Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/wyrd-company/agent-svgtools/releases/download/0.2.0/agent-svgtools-0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "e8a6154a5bc862ea8b7fff6cb1ad37fbf57e97b8f1130f2e7de39c542e448e1c"
+      url "https://github.com/wyrd-company/agent-svgtools/releases/download/0.2.1/agent-svgtools-0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "48d3917e668d0178b249fe199f1d1890dce2706eed2963379aaa866ec6bfa682"
     end
     on_intel do
-      url "https://github.com/wyrd-company/agent-svgtools/releases/download/0.2.0/agent-svgtools-0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "6a0d47d60c8996ddba90224778bcfe0b01a4a2803892b918e08ee8ad045d56cf"
+      url "https://github.com/wyrd-company/agent-svgtools/releases/download/0.2.1/agent-svgtools-0.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "1251872f3a3a5762729968c8678558d400cea8e0b27c839e38b4ea27d7d780e7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/wyrd-company/agent-svgtools/releases/download/0.2.0/agent-svgtools-0.2.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "fd72184e92a81c229f5375ae378ec157776444488cf4a55853fc7737b9f41873"
+      url "https://github.com/wyrd-company/agent-svgtools/releases/download/0.2.1/agent-svgtools-0.2.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "db55568071d1f0877e6065c159059e616435f6875d19692395f41a4398673482"
     end
     on_intel do
-      url "https://github.com/wyrd-company/agent-svgtools/releases/download/0.2.0/agent-svgtools-0.2.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "bff313805b1fb4f1243ff22b95c419d815dd49ab23201babb91979208817fb83"
+      url "https://github.com/wyrd-company/agent-svgtools/releases/download/0.2.1/agent-svgtools-0.2.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "2b68ad306f7a8a3112f0248197a6ef4222383812ae378a309afcc26203a8c935"
     end
   end
 
