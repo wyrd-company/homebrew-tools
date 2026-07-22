@@ -2,27 +2,28 @@
 class AgentSvgtools < Formula
   desc "Machine-first CLI scoring AI-authored SVGs against raster references"
   homepage "https://github.com/wyrd-company/agent-svgtools"
-  license any_of: ["MIT", "Apache-2.0"]
+  version "0.2.0"
+  license "MIT OR Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/wyrd-company/agent-svgtools/releases/download/0.1.0/agent-svgtools-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "ac797109e12fbdb6bb3a4929bccddd0f932ee4d422c362e31cdaae75fc6cf797"
+      url "https://github.com/wyrd-company/agent-svgtools/releases/download/0.2.0/agent-svgtools-0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "e8a6154a5bc862ea8b7fff6cb1ad37fbf57e97b8f1130f2e7de39c542e448e1c"
     end
     on_intel do
-      url "https://github.com/wyrd-company/agent-svgtools/releases/download/0.1.0/agent-svgtools-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "d3ff3a315acc198b5f9681e7bc3d3713b08321f16323ddc2e2a3544bf899cdc9"
+      url "https://github.com/wyrd-company/agent-svgtools/releases/download/0.2.0/agent-svgtools-0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "6a0d47d60c8996ddba90224778bcfe0b01a4a2803892b918e08ee8ad045d56cf"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/wyrd-company/agent-svgtools/releases/download/0.1.0/agent-svgtools-0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "5dafe0b074794c2baa9ae8e51ed45f82409e874d09d4803bb11768ba15c1e26c"
+      url "https://github.com/wyrd-company/agent-svgtools/releases/download/0.2.0/agent-svgtools-0.2.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "fd72184e92a81c229f5375ae378ec157776444488cf4a55853fc7737b9f41873"
     end
     on_intel do
-      url "https://github.com/wyrd-company/agent-svgtools/releases/download/0.1.0/agent-svgtools-0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "6f80c8d582129c903b09c2effd9130a5105b38f17dd100eeab230a4ee0aeb1e3"
+      url "https://github.com/wyrd-company/agent-svgtools/releases/download/0.2.0/agent-svgtools-0.2.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "bff313805b1fb4f1243ff22b95c419d815dd49ab23201babb91979208817fb83"
     end
   end
 
