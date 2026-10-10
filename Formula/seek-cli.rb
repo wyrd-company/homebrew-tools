@@ -1,29 +1,29 @@
 class SeekCli < Formula
   desc "Agent-friendly CLI for web search, deep research, and scraping"
   homepage "https://github.com/wyrd-company/seek-cli"
-  version "0.2.0"
+  version "0.3.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/wyrd-company/seek-cli/releases/download/0.2.0/seek-macos-arm64.tar.gz"
-      sha256 "278e8e780575c8e495ffbecc569b88e8c12c8ec3292a5b9a453b13181ac324b5"
+      url "https://github.com/wyrd-company/seek-cli/releases/download/0.3.0/seek-macos-arm64.tar.gz"
+      sha256 "d09e61f9694147f78fdf49ba08431fb205c963055db81c5a0fad157112b1c216"
     end
 
     on_intel do
-      url "https://github.com/wyrd-company/seek-cli/releases/download/0.2.0/seek-macos-x86_64.tar.gz"
-      sha256 "efd150ba10983441c44d1091613cc1320a775ba98026cdb8d12fc2b24c91b6e6"
+      url "https://github.com/wyrd-company/seek-cli/releases/download/0.3.0/seek-macos-x86_64.tar.gz"
+      sha256 "8750a0d1441e117bf34f464479149646ede9fd361535e65e57c35b523994e1c5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/wyrd-company/seek-cli/releases/download/0.2.0/seek-linux-arm64.tar.gz"
-      sha256 "4f45a2162ed37561ea3db5f00c660a9cca7dcca5799c1d09afc15e101fa18943"
+      url "https://github.com/wyrd-company/seek-cli/releases/download/0.3.0/seek-linux-arm64.tar.gz"
+      sha256 "f7debbaa6693a0d432d02692542edde416fedde0014222674f6039fda2e85df0"
     end
 
     on_intel do
-      url "https://github.com/wyrd-company/seek-cli/releases/download/0.2.0/seek-linux-x86_64.tar.gz"
-      sha256 "7a62236c4792cb8c86cb04df141b8f3795b98dc6be42e90ae25ddb127e1dc2a1"
+      url "https://github.com/wyrd-company/seek-cli/releases/download/0.3.0/seek-linux-x86_64.tar.gz"
+      sha256 "21120864ec5ce1621806288ddd90bcbcea4a4a885e80e934d7009c7e3faefa96"
     end
   end
 
