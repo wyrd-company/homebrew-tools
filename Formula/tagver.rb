@@ -27,6 +27,6 @@ class Tagver < Formula
   end
 
   test do
-    assert_match "TagVer", shell_output("#{bin}/tagver --help")
+    assert_match "Calculate version numbers", shell_output("#{bin}/tagver --help")
   end
 end
