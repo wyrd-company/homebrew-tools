@@ -2,7 +2,6 @@
 class Lore < Formula
   desc "Project-scoped knowledge portal command-line client"
   homepage "https://github.com/wyrd-company/lore"
-  version "0.1.11"
 
   on_macos do
     on_arm do
