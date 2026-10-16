@@ -1,7 +1,6 @@
 class SeekCli < Formula
   desc "Agent-friendly CLI for web search, deep research, and scraping"
   homepage "https://github.com/wyrd-company/seek-cli"
-  version "0.3.0"
 
   on_macos do
     on_arm do

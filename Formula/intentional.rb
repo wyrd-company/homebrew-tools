@@ -1,14 +1,12 @@
 class Intentional < Formula
   desc "Intent-driven polyglot release and versioning tool"
   homepage "https://github.com/wyrd-company/intentional"
+  url "https://github.com/wyrd-company/intentional/releases/download/0.1.6/intentional-macos-arm64.tar.gz"
+  sha256 "966a4a6beb3c2ee5fe0170cc449f2c59d35bac9f9dd1384d4ef994339b4bba43"
   license "Apache-2.0"
-  version "0.1.6"
 
   on_macos do
-    on_arm do
-      url "https://github.com/wyrd-company/intentional/releases/download/0.1.6/intentional-macos-arm64.tar.gz"
-      sha256 "966a4a6beb3c2ee5fe0170cc449f2c59d35bac9f9dd1384d4ef994339b4bba43"
-    end
+    depends_on arch: :arm
   end
 
   on_linux do

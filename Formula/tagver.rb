@@ -2,14 +2,11 @@ class Tagver < Formula
   desc "Command-line tool for minimalistic versioning using Git tags"
   homepage "https://github.com/wyrd-company/tagver"
   url "https://github.com/wyrd-company/tagver/releases/download/0.1.5/tagver-macos-arm64.tar.gz"
-  version "0.1.5"
   sha256 "d5111fc0e67e215bbeefa491f72ac169fdd7ce4b40afdeac6e9fa763bd946958"
   license "Apache-2.0"
 
   on_macos do
-    on_intel do
-      depends_on arch: :arm64
-    end
+    depends_on arch: :arm
   end
 
   on_linux do
