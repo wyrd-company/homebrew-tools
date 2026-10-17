@@ -5,23 +5,23 @@ class Toha < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/wyrd-company/toha/releases/download/0.2.0/toha_0.2.0_macos_aarch64.tar.gz"
-      sha256 "5e42a6235e43154e91acf7fa51e752268259e7dcc62be871f2c07b813fdc7f0f"
+      url "https://github.com/wyrd-company/toha/releases/download/0.3.0/toha_0.3.0_macos_aarch64.tar.gz"
+      sha256 "3e3f629a4e0d293d1a7145a10e33eca79864b1daa1922d6457afa57b92ddcced"
     end
     on_intel do
-      url "https://github.com/wyrd-company/toha/releases/download/0.2.0/toha_0.2.0_macos_x86_64.tar.gz"
-      sha256 "f92e79e2bbbd527d7f4e1cb04173ad308f68984832ef7c7da4b822f65154b82a"
+      url "https://github.com/wyrd-company/toha/releases/download/0.3.0/toha_0.3.0_macos_x86_64.tar.gz"
+      sha256 "42e659c9b109cde5688482518cb305a3c724dab7631ae9c7d875b7cb5852ff75"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/wyrd-company/toha/releases/download/0.2.0/toha_0.2.0_linux_aarch64.tar.gz"
-      sha256 "815c30e5dca44df84ea734e1725bdd6e31fc23e8ba8d980d696a78931ebaaa52"
+      url "https://github.com/wyrd-company/toha/releases/download/0.3.0/toha_0.3.0_linux_aarch64.tar.gz"
+      sha256 "afaabbd919f827ef228f7a85fdd039012ec026ea914cdfe8fcc13714476f2b03"
     end
     on_intel do
-      url "https://github.com/wyrd-company/toha/releases/download/0.2.0/toha_0.2.0_linux_x86_64.tar.gz"
-      sha256 "13b35e0dbf09bd2c8522a83dc334759b928a2d1a8a0ccd40d2d139da713a052f"
+      url "https://github.com/wyrd-company/toha/releases/download/0.3.0/toha_0.3.0_linux_x86_64.tar.gz"
+      sha256 "b469bc396f7673d19d4ae1e8d4df85b768ed6339a2e1d577224e705dd779c146"
     end
   end
 
