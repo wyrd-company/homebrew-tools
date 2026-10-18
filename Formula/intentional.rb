@@ -1,8 +1,8 @@
 class Intentional < Formula
   desc "Intent-driven polyglot release and versioning tool"
   homepage "https://github.com/wyrd-company/intentional"
-  url "https://github.com/wyrd-company/intentional/releases/download/0.1.7/intentional-macos-arm64.tar.gz"
-  sha256 "8f1889860f983c7b36e80fe1968bca9085c89e0517f739664a171fcced653e21"
+  url "https://github.com/wyrd-company/intentional/releases/download/0.1.8/intentional-macos-arm64.tar.gz"
+  sha256 "980322161e2d899ec32768879fa3229efe08d5e9211ff78f1548faac6d96ed37"
   license "Apache-2.0"
 
   on_macos do
@@ -11,13 +11,13 @@ class Intentional < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/wyrd-company/intentional/releases/download/0.1.7/intentional-linux-arm64.tar.gz"
-      sha256 "b1887e9bd6ecb2b718d5849829d7ade16d4d22d803a029e6439b784508520977"
+      url "https://github.com/wyrd-company/intentional/releases/download/0.1.8/intentional-linux-arm64.tar.gz"
+      sha256 "1efbd5db87875224fa8f048b8d3c5ba0cfce5e18559670c83fbbfb3b404afe9f"
     end
 
     on_intel do
-      url "https://github.com/wyrd-company/intentional/releases/download/0.1.7/intentional-linux-x86_64.tar.gz"
-      sha256 "d27b8ccf0d9cc03bf8d2e758ab463ba6f06ae48a5cc9df1ff38ae340aedcd02a"
+      url "https://github.com/wyrd-company/intentional/releases/download/0.1.8/intentional-linux-x86_64.tar.gz"
+      sha256 "f199304f9f1dfde0daffa9267904a54f98f06d9a6177817f655db5089c42d355"
     end
   end
 
