@@ -1,8 +1,8 @@
 class Tagver < Formula
   desc "Command-line tool for minimalistic versioning using Git tags"
   homepage "https://github.com/wyrd-company/tagver"
-  url "https://github.com/wyrd-company/tagver/releases/download/0.1.5/tagver-macos-arm64.tar.gz"
-  sha256 "d5111fc0e67e215bbeefa491f72ac169fdd7ce4b40afdeac6e9fa763bd946958"
+  url "https://github.com/wyrd-company/tagver/releases/download/0.1.6/tagver-macos-arm64.tar.gz"
+  sha256 "c8b67b84d9b8cb0d876f1d3c28cfe07a8d17e3a6aef890aee0cae1aae11a978f"
   license "Apache-2.0"
 
   on_macos do
@@ -11,13 +11,13 @@ class Tagver < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/wyrd-company/tagver/releases/download/0.1.5/tagver-linux-arm64.tar.gz"
-      sha256 "5739e26cd165c04e2bf11073dcc88f2ef4411046e22020115ec04f9c60d03469"
+      url "https://github.com/wyrd-company/tagver/releases/download/0.1.6/tagver-linux-arm64.tar.gz"
+      sha256 "b6d674a7d50f4e20d22765db4dce815f54949ece0c63ee4c6099529b25147658"
     end
 
     on_intel do
-      url "https://github.com/wyrd-company/tagver/releases/download/0.1.5/tagver-linux-x86_64.tar.gz"
-      sha256 "18926396e03da2427d135a1a819af9ed02e5f20e120deac0cf8450d214594aef"
+      url "https://github.com/wyrd-company/tagver/releases/download/0.1.6/tagver-linux-x86_64.tar.gz"
+      sha256 "df96dfbf7d232fc5d266a78d58b1490c3c9cc7b3887d4e8512bf57b344de4db6"
     end
   end
 
