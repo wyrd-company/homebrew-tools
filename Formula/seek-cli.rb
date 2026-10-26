@@ -4,25 +4,25 @@ class SeekCli < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/wyrd-company/seek-cli/releases/download/0.3.0/seek-macos-arm64.tar.gz"
-      sha256 "d09e61f9694147f78fdf49ba08431fb205c963055db81c5a0fad157112b1c216"
+      url "https://github.com/wyrd-company/seek-cli/releases/download/0.3.1/seek-macos-arm64.tar.gz"
+      sha256 "9203c856168dbf8d68d8cdbd8523b70e67b176f1ac7c466520064cec122e41eb"
     end
 
     on_intel do
-      url "https://github.com/wyrd-company/seek-cli/releases/download/0.3.0/seek-macos-x86_64.tar.gz"
-      sha256 "8750a0d1441e117bf34f464479149646ede9fd361535e65e57c35b523994e1c5"
+      url "https://github.com/wyrd-company/seek-cli/releases/download/0.3.1/seek-macos-x86_64.tar.gz"
+      sha256 "b38315f6ef294432c16a86113d878bbcc40058a65aa705a2db24ce752658eaa6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/wyrd-company/seek-cli/releases/download/0.3.0/seek-linux-arm64.tar.gz"
-      sha256 "f7debbaa6693a0d432d02692542edde416fedde0014222674f6039fda2e85df0"
+      url "https://github.com/wyrd-company/seek-cli/releases/download/0.3.1/seek-linux-arm64.tar.gz"
+      sha256 "168d66f5c7861c5785da6ea958715f26ba3de26bd14aa5484ecea4f67636f7aa"
     end
 
     on_intel do
-      url "https://github.com/wyrd-company/seek-cli/releases/download/0.3.0/seek-linux-x86_64.tar.gz"
-      sha256 "21120864ec5ce1621806288ddd90bcbcea4a4a885e80e934d7009c7e3faefa96"
+      url "https://github.com/wyrd-company/seek-cli/releases/download/0.3.1/seek-linux-x86_64.tar.gz"
+      sha256 "32a2386b659e70561ca0f4d742cb8a3f908d09760364693784fa6adca0290521"
     end
   end
 
