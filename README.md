@@ -17,6 +17,11 @@ brew install wyrd-company/tools/<formula>
 | Formula | Description |
 | ------- | ----------- |
 | envconsul | Launch a subprocess with environment variables from Consul and Vault |
+| t3c | Run T3 Code conversations from the terminal and automation |
+
+Install t3c with `brew install wyrd-company/tools/t3c`.
+The formula installs the published `@wyrd-company/t3code-cli` npm package and Node.
+See the [t3c documentation](https://wyrd.foo/docs/t3c) for connection setup and commands.
 
 Install envconsul with `brew install wyrd-company/tools/envconsul`.
 The formula uses HashiCorp's release binaries for macOS and Linux on Intel and Arm.
