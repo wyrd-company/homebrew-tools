@@ -4,23 +4,23 @@ class Gitpr < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/wyrd-company/gitpr/releases/download/0.4.1/gitpr_0.4.1_darwin_arm64.tar.gz"
-      sha256 "f777aada83619964aa2b1f0e9b6ff5c451fd77c74f5514253a8d38c2e424c6d1"
+      url "https://github.com/wyrd-company/gitpr/releases/download/0.4.2/gitpr_0.4.2_darwin_arm64.tar.gz"
+      sha256 "445c0b082d0eea88be8ee67999ab500dc0095c0ee463efd0c8017d9cbf533c88"
     end
     on_intel do
-      url "https://github.com/wyrd-company/gitpr/releases/download/0.4.1/gitpr_0.4.1_darwin_x86_64.tar.gz"
-      sha256 "9e818fc0e7c36198b98d22d3a369ae65cbaf6e936877d0ead269b1e3bcbd4729"
+      url "https://github.com/wyrd-company/gitpr/releases/download/0.4.2/gitpr_0.4.2_darwin_x86_64.tar.gz"
+      sha256 "e70a93ed28e7769ef1385cf8b5c6e757f85c895d00137b70df66be6fa6542ee9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/wyrd-company/gitpr/releases/download/0.4.1/gitpr_0.4.1_linux_arm64.tar.gz"
-      sha256 "5c40946bc11aa27c33cc884ac612a02c9e8f232363818b0c460addbd3065424b"
+      url "https://github.com/wyrd-company/gitpr/releases/download/0.4.2/gitpr_0.4.2_linux_arm64.tar.gz"
+      sha256 "f73c4d3a62c6363fc9b570ecc22e3deb69b029c59f92bc2a33a046c7946da444"
     end
     on_intel do
-      url "https://github.com/wyrd-company/gitpr/releases/download/0.4.1/gitpr_0.4.1_linux_x86_64.tar.gz"
-      sha256 "a7ec9485d01976d85d705decd95e52a77c7bc7dd682f47450467e89ce11197d3"
+      url "https://github.com/wyrd-company/gitpr/releases/download/0.4.2/gitpr_0.4.2_linux_x86_64.tar.gz"
+      sha256 "6aedbeb9874954ed5762a309ca456f5c451b05f4e6f8ec60fafc3def904d0832"
     end
   end
 
