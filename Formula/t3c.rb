@@ -4,8 +4,8 @@
 class T3c < Formula
   desc "Run T3 Code conversations from the terminal and automation"
   homepage "https://github.com/wyrd-company/t3code-client"
-  url "https://registry.npmjs.org/@wyrd-company/t3code-cli/-/t3code-cli-0.2.0.tgz"
-  sha256 "9ce715eb0bc62b7bb9f46a117fe39d984b4436372b2784d9610f07e800e98edb"
+  url "https://registry.npmjs.org/@wyrd-company/t3code-cli/-/t3code-cli-0.2.1.tgz"
+  sha256 "f59fcbc2e1baf8ebfa2859c8d66f7986659b83ad3e1a7b4ce0a1d05dd5db57eb"
   license "MIT"
 
   depends_on "node"
