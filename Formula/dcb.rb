@@ -3,26 +3,26 @@
 class Dcb < Formula
   desc "Build and run development containers"
   homepage "https://github.com/wyrd-company/devcontainer-builder"
-  version "0.2.1"
+  version "0.3.0"
   license "MIT"
   on_macos do
     on_intel do
-      url "https://github.com/wyrd-company/devcontainer-builder/releases/download/0.2.1/dcb_0.2.1_darwin_x86_64.tar.gz"
-      sha256 "4a854023908f7ee377dc870d2a2d9ca8ae9ed0445d33f94de063582e3e1b79d3"
+      url "https://github.com/wyrd-company/devcontainer-builder/releases/download/0.3.0/dcb_0.3.0_darwin_x86_64.tar.gz"
+      sha256 "9d48fea6f385cd87a10bde323ae2303ad71cd141b56a6ca0f0844fb898a01414"
     end
     on_arm do
-      url "https://github.com/wyrd-company/devcontainer-builder/releases/download/0.2.1/dcb_0.2.1_darwin_aarch64.tar.gz"
-      sha256 "2fbd40e07f7128de93c04442dfd44f0c068d08ccfe271d1512707c0ba16c135f"
+      url "https://github.com/wyrd-company/devcontainer-builder/releases/download/0.3.0/dcb_0.3.0_darwin_aarch64.tar.gz"
+      sha256 "324168069a46f4989d131b28699299529e03c58ac682bf3586c8b11fe0cdc56f"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/wyrd-company/devcontainer-builder/releases/download/0.2.1/dcb_0.2.1_linux_x86_64.tar.gz"
-      sha256 "cef3428f8ca6e16dc04985d1cb2f6c8be36d130c5e93210dbfa462d6ba7eec97"
+      url "https://github.com/wyrd-company/devcontainer-builder/releases/download/0.3.0/dcb_0.3.0_linux_x86_64.tar.gz"
+      sha256 "af3141bdc7abcb260b20a9d50375661d84fd3bdb40cbaf6e2bc713697efa0d1d"
     end
     on_arm do
-      url "https://github.com/wyrd-company/devcontainer-builder/releases/download/0.2.1/dcb_0.2.1_linux_aarch64.tar.gz"
-      sha256 "20f47b5ae0340da4d2cafa3f151966630249d4976913227901853e9df769a912"
+      url "https://github.com/wyrd-company/devcontainer-builder/releases/download/0.3.0/dcb_0.3.0_linux_aarch64.tar.gz"
+      sha256 "ee9f19c2bf9058fbde239044dc0d6b421db0c5eb513a32e88cb565ce2b17ef57"
     end
   end
   def install
