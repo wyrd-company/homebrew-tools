@@ -1,26 +1,26 @@
 class Deck < Formula
   desc "Discord conversations for agents through a secret-holding service"
   homepage "https://github.com/wyrd-company/deck"
-  version "0.1.2"
+  version "0.1.3"
   license "Apache-2.0"
   on_macos do
     on_arm do
-      url "https://github.com/wyrd-company/deck/releases/download/0.1.2/deck_0.1.2_darwin_aarch64.tar.gz"
-      sha256 "0901a01637f1c8453055fa957c07c2ef1c3ff1a39f7bc3332057197b35186e21"
+      url "https://github.com/wyrd-company/deck/releases/download/0.1.3/deck_0.1.3_darwin_aarch64.tar.gz"
+      sha256 "20a8d572cf040d540abc0559697e77e6e06ab65d7e50487e600ecb66ed49631d"
     end
     on_intel do
-      url "https://github.com/wyrd-company/deck/releases/download/0.1.2/deck_0.1.2_darwin_x86_64.tar.gz"
-      sha256 "c6c768ea994bf8057bd3d7489df3f708c38b8d994f90d466ac99f4232facf0a3"
+      url "https://github.com/wyrd-company/deck/releases/download/0.1.3/deck_0.1.3_darwin_x86_64.tar.gz"
+      sha256 "28513c0a0b5b95e2820471a6e527f9b2d6e721c04e131491122c50abd89b7c0b"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/wyrd-company/deck/releases/download/0.1.2/deck_0.1.2_linux_aarch64.tar.gz"
-      sha256 "b8e6548de61403b65e636688e6b93c3afb342c79e1edf22ef52ee3502cfe166a"
+      url "https://github.com/wyrd-company/deck/releases/download/0.1.3/deck_0.1.3_linux_aarch64.tar.gz"
+      sha256 "9eb075fe33168fba27f4825d25ae429c08309a5f4dfcc57148b714e7dfc6fc7a"
     end
     on_intel do
-      url "https://github.com/wyrd-company/deck/releases/download/0.1.2/deck_0.1.2_linux_x86_64.tar.gz"
-      sha256 "2bbb4b230daba694b1c473e80f91e62d6f496678216738ebc4bc0b01c96c1723"
+      url "https://github.com/wyrd-company/deck/releases/download/0.1.3/deck_0.1.3_linux_x86_64.tar.gz"
+      sha256 "13e2677e80603c9ce73304708665ddaaf24f43d977ccd48549528f064da2bc48"
     end
   end
   def install
